@@ -105,6 +105,19 @@ z-index: auto;
 font-size: 35px;
 font-family:fantasy;
 }
+.item{
+    max-width: 100px;
+    overflow: hidden;
+    display: flex;
+    transition: .8s;
+}
+.item>pic2{
+    width: 100%;
+}
+.item:hover{
+    max-width: 200px;
+    transform: scale(1.3);
+}
     .anime a{
 display: block;
 position: absolute;
