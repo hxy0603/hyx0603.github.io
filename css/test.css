@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    margin: 0 auto;
+    width: 1000px;
+    height: 250px;
+    line-height:150px;
+    position: relative;
+}
+.title >h1{
+    font-size: 72px;
+    font-family: DFKai-sb;
+    font-weight: lighter;
+    color:white;
+    position: absolute;
+    top:3%;
+    left:42%;
+    z-index: 3;
+    
+}
+.black
+{
+    background-color: black;          
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 290px;
+    top: 20px;
+    z-index: auto;
+}    
+.black01
+{
+    border-color: black;
+    border-width: 7px;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    left: 660px;
+    top: 155px;
+    z-index: 2;
+    
+}  
+.yellow
+{
+    background-color:rgb(239, 253, 39);          
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 630px;
+    top: 130px;
+    z-index: 1;
+}  
+.yellow01
+{
+    background-color:rgb(239, 253, 39);          
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 250px;
+    top: 5px;
+    z-index: 1;
+}  
+.yellow02
+{
+    background-color:rgb(239, 253, 39);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    z-index: 1;
+}  
+.white
+{
+    border-color:white;    
+    border-width: 7px;
+    border-style: solid;      
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 170px;
+    top: 120px;
+    z-index: 1;
+}  
+.white01
+{
+    background-color:white;          
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 560px;
+    top: 8px;
+    z-index: 1;
+}         
+.img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.img>iframe{
+    position:absolute;
+    left: 50%-270px;
+    top: 65px;
+    width: 630px;
+    height: 280px;
+}
+
+.img>img{
+    height:400px;
+    width:100%;
+    margin: 0 auto;
+}
+
+
+.img>home{
+    position: absolute;
+    right:100px;
+    bottom: 80px;
+}
+.item
+{
+    max-width: 100px;
+    overflow: hidden;
+    display: flex;
+    transition: .8s;
+    
+}
+.item>img
+{
+    width: 100%;
+}
+.item:hover
+{
+    max-width: 200px;
+    transform: scale(1.3);
+}
