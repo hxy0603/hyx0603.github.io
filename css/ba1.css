@@ -1,0 +1,119 @@
+body{
+    background: url(img/ba4.png);
+    background-repeat:no-repeat;
+    background-position:top 400px left 550px;
+    background-size:30%;
+    font-family: DFKai-sb;
+}
+button.b1{
+    font-size: 28px;
+    font-family:DFKai-sb ;
+    font-weight: bold;
+    color: black;
+    left:310px;
+    top: 45px;
+    position: absolute;
+    left:330px;
+    top: 70px;
+    z-index: 2;
+    cursor:pointer;
+    transition: color 0.2s linear;
+}
+button.b1{
+    color: orangered;
+}
+button.b2{
+    font-size: 28px;
+    font-family:DFKai-sb ;
+    font-weight: bold;
+    color: black;
+    left:830px;
+    top: 45px;
+    position: absolute;
+    left:860px;
+    top: 70px;
+    z-index: 2;
+    cursor:pointer;
+    transition: color 0.2s linear;
+}
+button.b2{
+    color: orangered;
+}
+.pic1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999; 
+}
+.pic1 img{
+    min-width: 100%;
+    width: 100%;
+}
+.pic2{
+    position: absolute;
+    left:330px;
+    top: 120px;
+    z-index: 1;
+    animation: myfirst 1.5s infinite;
+    animation-name: ba;
+    animation-duration: 3s;
+}
+@keyframes ba{
+    0%  { left:330px; left:360px;}
+   25%  { left:330px; left:300px;}
+   50%  { left:330px; left:360px;}
+   75%  { left:330px; left:300px;}
+   100% { left:330px; left:360px;}
+}
+.pic3{
+    animation: myfirst 1.5s infinite;
+    position: absolute;
+    left:860px;
+    top: 120px;
+    z-index: 1;
+    animation-name: ba2;
+    animation-duration: 3s;
+}
+@keyframes ba2{
+    0%  { left:860px; left:890px;}
+   25%  { left:860px; left:830px;}
+   50%  { left:860px; left:890px;}
+   75%  { left:860px; left:830px;}
+   100% { left:860px; left:890px;}
+}
+.line{
+    padding-top: 250px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+p.headline{
+    background-repeat:no-repeat;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 38px;
+}
+h2{
+    -webkit-column-break-after: always;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 28px;
+}
+table{
+
+    font-size: 32px;
+}
+.white
+{
+    background-image:url("img/line.jpg");
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    z-index: auto;
+    font-size: 35px;
+    font-family:fantasy;
+}
