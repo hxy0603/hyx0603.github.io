@@ -1,0 +1,282 @@
+.white
+        {
+            background-image:url("img/line01.jpg");
+            height: 120px;
+            z-index: auto;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+        }
+        .img77
+        {
+            position: absolute;
+            left: 300px;
+            top: 8px;
+            z-index: 1;
+            animation-name: basketball;
+            animation-duration: 1s;
+        }
+        .img01
+        {
+            position: absolute;
+            left: 940px;
+            top: 8px;
+            z-index: 1;
+        }
+        body{
+            background-image: url("img/basketballbg.png");
+            background-repeat: repeat-y;
+            background-position:top 122px left 600px;
+            background-size: 23%;
+            background-attachment: scroll;
+            z-index: top;
+            font-family: 'DFKai-sb';
+            background-color: #b9b9b9;
+        }
+        .img02{
+            position: absolute;
+            left: 0px;
+            top:190px;
+            float: left;
+            font-size: 23px;
+        }
+        .img03{
+            position: absolute;
+            left: 416px;
+            top: 110px;
+            animation-name: basketball1;
+            animation-duration: 3s;
+            z-index: 2;
+        }
+        @keyframes basketball1{
+            0%   { left:416px; top:93px;}
+           25%  { left:416px; top:40px;}
+           50%  { left:416px; top:93px;}
+           75%  { left:416px; top:40px;}
+           100% { left:416px; top:93px;}
+        }
+        .img04
+           {
+            position: absolute;
+            left: 1056px;
+            top:110px;
+            animation-name: basketball2;
+            animation-duration: 3s;
+            z-index: 2;
+        }
+        @keyframes basketball2{
+            0%   { left:1056px; top:93px;}
+           25%  { left:1056px; top:40px;}
+           50%  { left:1056px; top:93px;}
+           75%  { left:1056px; top:40px;}
+           100% { left:1056px; top:93px;}
+        }
+
+        button.b1{
+            font-size: 22px;
+            font-family:DFKai-sb ;
+            font-weight: bold;
+            color: black;
+            height: 50px;
+            width: 110px;
+            position: absolute;
+            left: 392px;
+            top: 50px;
+            z-index: 2;
+            cursor:pointer;
+            transition: color 0.2s linear;
+        }
+        button.b1:hover{
+            color: orangered;
+        }
+       
+        button.b2{
+            font-size: 22px;
+            font-family:DFKai-sb ;
+            font-weight: bold;
+            color: black;
+            height: 50px;
+            width: 110px;
+            position: absolute;
+            left: 1032px;
+            top: 50px;
+            z-index: 2;
+            cursor:pointer;
+            transition: color 0.2s linear;
+        }
+        button.b2:hover{
+            color: orangered;}
+        .img05{
+            position: absolute;
+            left: 0px;
+            top:450px;
+            float: left;
+            font-size: 23px;
+            font-family: 'DFKai-sb';
+        }
+        .img06{
+            position: absolute;
+            left: 0px;
+            top:600px;
+            float: left;
+            font-size: 23px;
+            font-family: 'DFKai-sb';
+        }
+        
+        
+        table, td, th {
+            border: 1px solid black;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            position: relative;
+            left: 17%;
+            top: 100px;
+            text-align: center;
+            font-size: 25px;
+            font-family: 'DFKai-sb';
+        }
+        .anime{
+  position: relative;
+  height:280px;
+  margin-top:2px;
+  margin-bottom: 10px
+  
+  ;
+}
+
+
+.anime a{
+  display: block;
+  position: absolute;
+  top:70%;
+  left:30%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /*動畫全長時間設定*/
+  -webkit-animation: slider 24s linear infinite;
+  animation: slider 24s linear infinite;
+}
+ 
+/*動畫關鍵影格, slider動畫名字*/
+  @-webkit-keyframes slider {
+    2.5% {
+      opacity: 1;
+      filter: alpha(opacity=100);
+    }
+    17.5% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    }
+    20% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    }
+  }
+  @keyframes slider {
+    2.5% {
+      opacity: 1;
+      filter: alpha(opacity=100);
+    }
+    17.5% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    }
+    20% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    }
+  }
+ 
+/*每個圖片相隔4秒*/
+  .anime a:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+ 
+  .anime a:nth-child(2) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+  }
+ 
+  .anime a:nth-child(3) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+  }
+ 
+  .anime a:nth-child(4) {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+  }
+ 
+  .anime a:nth-child(5) {
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
+  }
+  .anime a:nth-child(6) {
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+  }
+  .anime a:nth-child(7) {
+    -webkit-animation-delay: 18s;
+    animation-delay: 18s;
+  }
+  .anime a:nth-child(8) {
+    -webkit-animation-delay: 21s;
+    animation-delay: 21s;
+  }
+  .anime a:nth-child(9) {
+    -webkit-animation-delay: 24s;
+    animation-delay: 24s;
+  }
+/*當滑鼠移動到圖片的區塊時，動畫暫停*/
+  .anime a:hover{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  }
+ 
+        .white2
+        {
+            
+            background-image:url("img/line01.jpg");
+            text-align: center;
+            position: relative;
+            left: 0px;
+            right: 0px;
+            top: 400px;
+            z-index: auto;
+            font-size: 35px;
+            font-family:fantasy;
+        }
+        .img{
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+  .img>home{
+           position: absolute;
+            right: 2px;
+            top: 320px;
+        }
+        .item
+        {
+            max-width: 100px;
+            overflow: hidden;
+            display: flex;
+            transition: .8s;
+            
+        }
+        .item>img
+        {
+            width: 100%;
+        }
+        .item:hover
+        {
+            max-width: 200px;
+            transform: scale(1.3);
+        }
