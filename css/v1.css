@@ -126,7 +126,7 @@ table{
   .img>home{
              position: absolute;
             right: 2px;
-            button: 10px;
+            top: -100px;
         }
 .item{
     max-width: 100px;
