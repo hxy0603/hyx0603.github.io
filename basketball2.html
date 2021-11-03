@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於練習</title>
+    <style>
+      .white
+        {
+            background-image:url("line01.jpg");
+            height: 120px;
+            z-index: auto;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+        }
+        .img77
+        {
+            position: absolute;
+            left: 300px;
+            top: 8px;
+            z-index: 1;
+            animation-name: basketball;
+            animation-duration: 1s;
+        }
+        .img01
+        {
+            position: absolute;
+            left: 940px;
+            top: 8px;
+            z-index: 1;
+        }
+        body{
+            background-image: url("basketballbg.png");
+            background-repeat: repeat-y;
+            background-position:top 122px left 600px;
+            background-size: 23%;
+            background-attachment: scroll;
+            z-index: top;
+            font-family: 'DFKai-sb';
+        }
+        .img02{
+            position: absolute;
+            left: 0px;
+            top:190px;
+            float: left;
+            font-size: 23px;
+        }
+        .img03{
+            position: absolute;
+            left: 416px;
+            top: 110px;
+            animation-name: basketball1;
+            animation-duration: 3s;
+            z-index: 2;
+        }
+        @keyframes basketball1{
+            0%   { left:416px; top:93px;}
+           25%  { left:416px; top:40px;}
+           50%  { left:416px; top:93px;}
+           75%  { left:416px; top:40px;}
+           100% { left:416px; top:93px;}
+        }
+        .img04
+           {
+            position: absolute;
+            left: 1056px;
+            top:110px;
+            animation-name: basketball2;
+            animation-duration: 3s;
+            z-index: 2;
+        }
+        @keyframes basketball2{
+            0%   { left:1056px; top:93px;}
+           25%  { left:1056px; top:40px;}
+           50%  { left:1056px; top:93px;}
+           75%  { left:1056px; top:40px;}
+           100% { left:1056px; top:93px;}
+        }
+
+        button.b1{
+            font-size: 22px;
+            font-family:DFKai-sb ;
+            font-weight: bold;
+            color: black;
+            height: 50px;
+            width: 110px;
+            position: absolute;
+            left: 392px;
+            top: 50px;
+            z-index: 2;
+            cursor:pointer;
+            transition: color 0.2s linear;
+        }
+        button.b1:hover{
+            color: orangered;
+        }
+       
+        button.b2{
+            font-size: 22px;
+            font-family:DFKai-sb ;
+            font-weight: bold;
+            color: black;
+            height: 50px;
+            width: 110px;
+            position: absolute;
+            left: 1032px;
+            top: 50px;
+            z-index: 2;
+            cursor:pointer;
+            transition: color 0.2s linear;
+        }
+        button.b2:hover{
+            color: orangered;}
+        .img05{
+            position: absolute;
+            left: 0px;
+            top:450px;
+            float: left;
+            font-size: 23px;
+            font-family: 'DFKai-sb';
+        }
+        .img06{
+            position: absolute;
+            left: 0px;
+            top:600px;
+            float: left;
+            font-size: 23px;
+            font-family: 'DFKai-sb';
+        }
+        
+        
+        table, td, th {
+            border: 1px solid black;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            position: relative;
+            left: 17%;
+            top: 100px;
+            text-align: center;
+            font-size: 25px;
+            font-family: 'DFKai-sb';
+        }
+        .anime{
+  position: relative;
+  height:280px;
+  margin-top:2px;
+  margin-bottom: 10px
+  
+  ;
+}
+
+
+.anime a{
+  display: block;
+  position: absolute;
+  top:70%;
+  left:30%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /*動畫全長時間設定*/
+  -webkit-animation: slider 24s linear infinite;
+  animation: slider 24s linear infinite;
+}
+ 
+/*動畫關鍵影格, slider動畫名字*/
+  @-webkit-keyframes slider {
+    2.5% {
+      opacity: 1;
+      filter: alpha(opacity=100);
+    }
+    17.5% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    }
+    20% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    }
+  }
+  @keyframes slider {
+    2.5% {
+      opacity: 1;
+      filter: alpha(opacity=100);
+    }
+    17.5% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    }
+    20% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    }
+  }
+ 
+/*每個圖片相隔4秒*/
+  .anime a:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+ 
+  .anime a:nth-child(2) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+  }
+ 
+  .anime a:nth-child(3) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+  }
+ 
+  .anime a:nth-child(4) {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+  }
+ 
+  .anime a:nth-child(5) {
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
+  }
+  .anime a:nth-child(6) {
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+  }
+  .anime a:nth-child(7) {
+    -webkit-animation-delay: 18s;
+    animation-delay: 18s;
+  }
+  .anime a:nth-child(8) {
+    -webkit-animation-delay: 21s;
+    animation-delay: 21s;
+  }
+  .anime a:nth-child(9) {
+    -webkit-animation-delay: 24s;
+    animation-delay: 24s;
+  }
+/*當滑鼠移動到圖片的區塊時，動畫暫停*/
+  .anime a:hover{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  }
+ 
+        .white2
+        {
+            
+            background-image:url("line01.jpg");
+            text-align: center;
+            position: relative;
+            left: 0px;
+            right: 0px;
+            top: 400px;
+            z-index: auto;
+            font-size: 35px;
+            font-family:fantasy;
+        }
+        .img{
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+  .img>home{
+            position: absolute;
+            right: 2px;
+            top: 550px;
+        }
+        .item
+        {
+            max-width: 100px;
+            overflow: hidden;
+            display: flex;
+            transition: .8s;
+            
+        }
+        .item>img
+        {
+            width: 100%;
+        }
+        .item:hover
+        {
+            max-width: 200px;
+            transform: scale(1.3);
+        }
+    </style>
+</head>
+<body style="background-color: #b9b9b9;">
+    
+    <div class="txt"><a href="basketball1.html"><button class="b1">關於校籃</button></a></div>
+    <div class="img77"><img src="basket.png" height="191px " width="300px"></div>     
+    <div class="txt01"><a href="basketball2.html"><button class="b2">關於練習</button></a></div>
+    <div class="white"> </div> 
+    <div class="img03"><img src="basketball.png" height="60px " width="60px"></div>
+    <div class="img04"><img src="basketball.png" height="60px " width="60px"></div>   
+    <div class="img01"><img src="basket.png" height="191px " width="300px"></div>
+    <table>
+        <tr>
+          <th>校男籃練球時間</th>
+          <th>校男籃練球地點</th>
+        </tr>
+        <tr>
+          <td>星期一20:00-22:00</td>
+          <td>中原大學體育館</td>
+        </tr>
+        <tr>
+          <td>星期二20:00-22:00</td>
+          <td>中原大學體育館</td>
+        </tr>
+        <tr>
+            <td>星期四20:00-22:00</td>
+            <td>中原大學體育館</td>
+          </tr>
+          <tr>
+            <td>星期五20:00-22:00</td>
+            <td>中原大學體育館</td>
+          </tr>
+      </table>
+      <table>
+        <tr>
+          <th>校女籃練球時間</th>
+          <th>校女籃練球地點</th>
+        </tr>
+        <tr>
+          <td>星期二19:30-22:00</td>
+          <td>中原大學體育館</td>
+        </tr>
+        <tr>
+          <td>星期三19:00-22:00</td>
+          <td>中原大學體育館</td>
+        </tr>
+        
+          <tr>
+            <td>星期五19:30-22:00</td>
+            <td>中原大學體育館</td>
+          </tr>
+      </table>
+      <div class="anime" align="center">
+          <a href="#"><img src="IMG_3930.jpg" width="720" height="480" alt="#"></a>
+          <a href="#"><img src="IMG_3931.jpg" width="720" height="480" alt="#"></a>
+          <a href="#"><img src="IMG_3932.jpg" width="720" height="480" alt="#"></a>
+          <a href="#"><img src="IMG_3933.jpg" width="720" height="480" alt="#"></a>
+          <a href="#"><img src="IMG_3934.jpg" width="720" height="480" alt="#"></a>
+          <a href="#"><img src="IMG_4062.jpg" width="720" height="480" alt="#"></a>
+          <a href="#"><img src="IMG_4063.jpg" width="720" height="480" alt="#"></a>
+          <a href="#"><img src="IMG_4064.jpg" width="720" height="480" alt="#"></a>
+          <a href="#"><img src="IMG_4065.jpg" width="720" height="480" alt="#"></a>
+      </div>
+      
+
+        <div class="white2">
+            MAN'S:<a href="https://www.instagram.com/cycubasketball/">IG</a>|<a href="https://www.facebook.com/cycueagle/">FB</a>   &    WOMAN'S:<a href="https://www.instagram.com/cycu_wbt/">IG</a>|<a href="https://www.facebook.com/cycubasketball/?ref=py_c">FB</a></div> 
+            <div class="img">
+              <home>
+                     <div class="item">
+                         <a href="index.html">
+                             <img src="img/HOME.png" height="70px" width="70px">
+                         </a>
+                     </div>  
+              </home> </div> 
+</body> 
+</html>
