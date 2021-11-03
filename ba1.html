@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校羽</title>
+    <style>
+        body{
+            background: url(img/ba4.png);
+            background-repeat:no-repeat;
+            background-position:top 400px left 550px;
+            background-size:30%;
+            font-family: DFKai-sb;
+        }
+        button.b1{
+            font-size: 28px;
+            font-family:DFKai-sb ;
+            font-weight: bold;
+            color: black;
+            left:310px;
+            top: 45px;
+            position: absolute;
+            left:330px;
+            top: 70px;
+            z-index: 2;
+            cursor:pointer;
+            transition: color 0.2s linear;
+        }
+        button.b1{
+            color: orangered;
+        }
+        button.b2{
+            font-size: 28px;
+            font-family:DFKai-sb ;
+            font-weight: bold;
+            color: black;
+            left:830px;
+            top: 45px;
+            position: absolute;
+            left:860px;
+            top: 70px;
+            z-index: 2;
+            cursor:pointer;
+            transition: color 0.2s linear;
+        }
+        button.b2{
+            color: orangered;
+        }
+        .pic1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999; 
+        }
+        .pic1 img{
+            min-width: 100%;
+            width: 100%;
+        }
+        .pic2{
+            position: absolute;
+            left:330px;
+            top: 120px;
+            z-index: 1;
+            animation: myfirst 1.5s infinite;
+            animation-name: ba;
+            animation-duration: 3s;
+        }
+        @keyframes ba{
+            0%  { left:330px; left:360px;}
+           25%  { left:330px; left:300px;}
+           50%  { left:330px; left:360px;}
+           75%  { left:330px; left:300px;}
+           100% { left:330px; left:360px;}
+        }
+        .pic3{
+            animation: myfirst 1.5s infinite;
+            position: absolute;
+            left:860px;
+            top: 120px;
+            z-index: 1;
+            animation-name: ba2;
+            animation-duration: 3s;
+        }
+        @keyframes ba2{
+            0%  { left:860px; left:890px;}
+           25%  { left:860px; left:830px;}
+           50%  { left:860px; left:890px;}
+           75%  { left:860px; left:830px;}
+           100% { left:860px; left:890px;}
+        }
+        .line{
+            padding-top: 250px;
+            padding-left: 250px;
+            padding-right: 250px;
+        }
+        p.headline{
+            background-repeat:no-repeat;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 38px;
+        }
+        h2{
+            -webkit-column-break-after: always;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 28px;
+        }
+        table{
+
+            font-size: 32px;
+        }
+        .white
+        {
+            background-image:url("img/line.jpg");
+            text-align: center;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            z-index: auto;
+            font-size: 35px;
+            font-family:fantasy;
+        }
+    </style>
+</head>
+<body  style="background-color: #b9b9b9">
+    <div class="a"><a href="ba1.html"><button class="b1">關於校羽</button></a></div>
+    <div class="b"><a href="ba2.html"><button class="b2">關於練習</button></a></div>
+    <div class="pic1"><img src="img/ba3.png" height="200px"></div>
+    <div class="pic2"><img src="img/ba1.png" height="100px" width="100px"></div>
+    <div class="pic3"><img src="img/ba1.png" height="100px" width="100px"></div>
+    <div class="line">
+        <p class="headline">——背景——</p>
+        <h1 align="center">"充分發揮個人潛力就是成功<br>在場上共同揮灑的汗水不要忘記<br>因為這將會是最美好的回憶"</h1>
+        <p align="center">
+        <span style="background-color: #A6A6D2;">中原大學羽球隊</span><br>
+        中原大學羽球隊創立於民國70年<br>
+        球隊成員約有40人<br>
+        目前的教練為蘇榮立，選手時期專精於雙打<br><br>
+        主要分為男團與女團<br>
+        大部分球員為入學前運動成績優良之學生<br>
+        一般生則可藉由校內舉辦的徵選會加入<br>
+        中原大學注重體育活動，重視身心靈均衡發展，落實「全人教育」</p>
+    </div>
+        <p class="headline">——獎項——</p>
+    <table align="center" border="1">
+        <tr align="center">
+            <td><h3>男團賽事</h3></td>
+            <td><h3>名次</h3></td>
+            <td><h3>女團賽事</h3></td>
+        <td><h3>名次</h3></td>
+        </tr>
+        <tr>
+            <td>107學年度四中五校聯誼賽</td>
+            <td>亞軍</td>
+            <td>107學年度大專盃北區</td>
+            <td>冠軍</td>
+        </tr>
+        <tr>
+            <td>108學年度四中五校聯誼賽</td>
+            <td>亞軍</td>
+            <td>107學年度四中五校聯誼賽</td>
+            <td>冠軍</td>
+        </tr>
+        <tr>
+            <td>108學年度大專盃</td>
+            <td>八強</td>
+            <td>108學年度大專盃</td>
+            <td>八強</td>
+        </tr>
+        <tr>
+            <td>109學年度大專盃預賽</td>
+            <td>第二名</td>
+            <td>109學年度大專盃</td>
+            <td>季軍</td>
+        </tr>
+        <tr>
+            <td>110學年度大專盃預賽</td>
+            <td>第五名</td>
+            <td>110學年度大專盃北區</td>
+            <td>冠軍</td>
+        </tr>
+    </table>
+    <p class="headline">——教練&正副隊長——</p>
+    <div style="columns: 3;text-align: center;">
+    <img src="img/ba coach.jpg" height="350px" width="400px">
+    <h2>校羽教練:蘇榮立</h2>
+    <img src="img/ba leader1.jpg" height="350px" width="400px">
+    <h2>男羽隊長：環工大三 張棠文</h2>
+    <img src="img/ba leader2.jpg" height="350px" width="400px">
+    <h2>女羽隊長：資管大三 李玟俞</h2>
+    </div>
+    <h1 class="white">
+        Man's＆Woman's:<a href="https://www.facebook.com/%E4%B8%AD%E5%8E%9F%E5%A4%A7%E5%AD%B8%E7%BE%BD%E7%90%83%E9%9A%8A-325130891201666/?ref=page_internal">FB</a>
+    </h1>
+</body>
+</html>
