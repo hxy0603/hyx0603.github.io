@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.title
+{
+    margin: 0 auto;
+    width: 1000px;
+    height: 250px;
+    line-height: 80px;
+    position: relative;
+    z-index: 2;
+}
+.title1{
+    margin: 0 auto;
+    width: 1000px;
+    height: 250px;
+    line-height: 80px;
+    position: relative;
+    z-index: 2;
+}
+.title>h1
+{
+    font-size: 65px;
+    font-family: DFKai-sb;
+    color: white;
+    padding-left: 60%;
+    padding-top: 3%;
+    position: absolute;
+    margin-left: 30%;
+    z-index: 3;
+}
+.title1>h2
+{
+    font-size: 65px;
+    font-family: DFKai-sb;
+    color: white;
+    padding-left: 65%;
+    padding-top: 35%;
+    position:absolute;
+    margin-left: 40%;
+    z-index: 3;
+}
+.a
+{
+    background-color: rgb(67, 77, 107);
+    height: 500px;
+    width: 450px;
+    position:absolute;
+    left:550px;
+    top:20px;
+    z-index: auto;
+}
+.b
+{
+    border-color: rgb(223, 188, 35);
+    border-width:18px;
+    border-style: solid;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 930px;
+    top:480px ;
+    z-index: 1;
+}
+.y
+{
+    background-color:rgb(223, 188, 35);
+    height: 300px;
+    width: 80px;
+    position:absolute;
+    left:1150px;
+    top:45px;
+    z-index: 1;
+}
+.w{
+    border-color: white;
+    border-width:8px;
+    border-style: solid;
+    height: 80px;
+    width: 40px;
+    position: absolute;
+    left: 1210px;
+    top:320px ;
+    z-index: 1;
+}
+.pic
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.pic>pic1
+{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+.pic>pic2
+{
+    position: absolute;
+    left: 45px;
+    top: 220px;
+}
+.pic>pic3
+{
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+.pic>pic4
+{
+    position: absolute;
+    left: 350px;
+    top: -5px;
+}
+.pic>pic5
+{
+    position: absolute;
+    left: 500px;
+    top: 60px;
+}
+.pic>pic6
+{
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+.item{
+    max-width: 100px;
+    overflow: hidden;
+    display: flex;
+    transition: .8s;
+}
+.item>pic2{
+    width: 100%;
+}
+.item:hover{
+    max-width: 200px;
+    transform: scale(1.3);
+}
