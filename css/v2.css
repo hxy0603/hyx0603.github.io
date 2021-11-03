@@ -93,43 +93,6 @@ body{
         margin-top:250px;
         font-size: 32px;
     }
-.white
-{
-background-image:url("https://github.com/hxy0603/hyx0603.github.io/blob/main/img/line.jpg?raw=true");
-text-align: center;
-position: absolute;
-left: 0px;
-right: 0px;
-top: 1000px;
-z-index: auto;
-font-size: 35px;
-font-family:fantasy;
-}
-.img{
-            width: 100%;
-            height: auto;
-            position: relative;
-            display: flex;
-            justify-content: center;
-        }
-  .img>home{
-             position: absolute;
-            right: 2px;
-            top: -100px;
-        }
-.item{
-    max-width: 100px;
-    overflow: hidden;
-    display: flex;
-    transition: .8s;
-}
-.item>pic2{
-    width: 100%;
-}
-.item:hover{
-    max-width: 200px;
-    transform: scale(1.3);
-}
     .anime a{
 display: block;
 position: absolute;
@@ -205,4 +168,41 @@ animation-delay: 15s;
 .anime a:hover{
 -webkit-animation-play-state: paused;
 animation-play-state: paused;
+}
+.white
+{
+background-image:url("https://github.com/hxy0603/hyx0603.github.io/blob/main/img/line.jpg?raw=true");
+text-align: center;
+            position: relative;
+            left: 0px;
+            right: 0px;
+            top: 400px;
+            z-index: auto;
+            font-size: 35px;
+            font-family:fantasy;
+}
+.img{
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+  .img>home{
+             position: absolute;
+            right: 2px;
+            top: -100px;
+        }
+.item{
+    max-width: 100px;
+    overflow: hidden;
+    display: flex;
+    transition: .8s;
+}
+.item>pic2{
+    width: 100%;
+}
+.item:hover{
+    max-width: 200px;
+    transform: scale(1.3);
 }
