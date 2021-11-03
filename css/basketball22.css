@@ -1,6 +1,6 @@
 .white
         {
-            background-image:url("https://github.com/hxy0603/hyx0603.github.io/blob/main/img/line01.jpg?raw=true");
+            background-image:url("img/line01.jpg");
             height: 120px;
             z-index: auto;
             margin-left: 0px;
@@ -241,7 +241,7 @@
         .white2
         {
             
-            background-image:url("https://github.com/hxy0603/hyx0603.github.io/blob/main/img/line01.jpg?raw=truev");
+            background-image:url("img/line01.jpg");
             text-align: center;
             position: relative;
             left: 0px;
