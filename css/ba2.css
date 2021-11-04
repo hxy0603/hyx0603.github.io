@@ -191,9 +191,8 @@ position: absolute;
         }
   .img>home{
            position: absolute;
-            right: 2px;
+            right: 5px;
             top: 320px;
-          z-index:2;
         }
         .item
         {
