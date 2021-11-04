@@ -241,14 +241,14 @@
         .white2
         {
             background-image:url("https://github.com/hxy0603/hyx0603.github.io/blob/main/img/line01.jpg?raw=true");
-             text-align: center;
-            margin-left: 0px;
-            margin-right: 0px;
-            z-index: 1;
+            text-align: center;
+position: absolute;
+            left: 0px;
+            right: 0px;
+    top: 1000px;
+            z-index: auto;
             font-size: 35px;
             font-family:fantasy;
-            position:absolute;
-            top:380px;
                
         }
         .img{
