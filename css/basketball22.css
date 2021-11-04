@@ -247,7 +247,7 @@
             z-index: auto;
             font-size: 35px;
             font-family:fantasy;
-                position:relative;
+                position:absolute;
                 top:360px;
         }
         .img{
