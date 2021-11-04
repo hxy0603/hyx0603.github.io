@@ -189,9 +189,9 @@ animation-play-state: paused;
             justify-content: center;
         }
   .img>home{
-            position: relative;
-            right: -740px;
-            top: 650px;
+            position:absolute;
+            right: 2px;
+            top: 660px;
         }
         .item
         {
