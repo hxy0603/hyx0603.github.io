@@ -241,11 +241,9 @@
         .white2
         {
             background-image:url("https://github.com/hxy0603/hyx0603.github.io/blob/main/img/line01.jpg?raw=true");
-             text-align: center;
+              text-align: center;
             margin-left: 0px;
             margin-right: 0px;
-             position: absolute;
-            top: 320px;
             z-index: auto;
             font-size: 35px;
             font-family:fantasy;
